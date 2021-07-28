@@ -79,10 +79,10 @@ let ctx = canvas.getContext('2d');
 
 const circle =
 {
-    x : 200,
-    y : 200,
+    x : Math.floor(Math.random() *100),
+    y :  Math.floor(Math.random() *200),
     size : 25,
-    dx : 2,
+    dx : 12,
     dy : 5
 }
 function drawCircle() 
