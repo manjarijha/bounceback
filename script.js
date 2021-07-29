@@ -77,6 +77,9 @@ let ctx = canvas.getContext('2d');
 
 // //face drawing ends 
 
+canvas.height = window.innerHeight;
+canvas.width = window.innerWidth;
+
 const circle =
 {
     x : Math.random() *1000,
@@ -118,3 +121,4 @@ requestAnimationFrame(update);
 
 }
 update();
+
